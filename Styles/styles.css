@@ -9,7 +9,7 @@ body {
   line-height: 1.6;
   font-family: "Noto Sans", sans-serif;
   font-weight: bolder;
-
+  scroll-behavior: smooth;
   color: #2f3c7e;
   text-align: left;
   background-color: #f1f1f1;
