@@ -13,7 +13,7 @@
     <meta property="og:description" content="For All Your Educational Medical and Professional Needs" />
     <meta
       property="og:image"
-      content="https://rocky-recon.github.io/MercadosConsultingService/img/logo"
+      content="./img/mcs.png"
     />
     <meta
       property="og:url"
@@ -38,26 +38,15 @@
     <!-- Navigation -->
     <header
       class="
-        d-flex
         flex-wrap
         justify-content-center
-        py-3
-        mb-4
         px-3
         visible-lg-block
       "
     >
       <nav class="navbar navbar-expand-lg" id="nav-bar">
         <div class="navbar-nav" id="brand-container">
-          <a href="#" class="navbar-nav visible-lg-block">
-            <img
-              src="./img/logo.png"
-              alt=""
-              class="d-inline-block align-text-top"
-              width="120rem"
-              height="80rem"
-            />
-          </a>
+        <h2 style="font-weight: bolder;">Mercado's Consultant Service</h2>
         </div>
         <button
           class="navbar-toggler"
@@ -75,32 +64,20 @@
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav ml-auto">
-            <!-- Home -->
-            <li class="nav-item">
-              <!-- <button class="btn btn-sm btn-outline-dark" id="contact"> -->
-              <a href="#home" class="nav-link active" aria-current="page"
-                >Home</a
-              >
-              <!-- </button> -->
-            </li>
             <!-- About -->
             <li class="nav-item">
-              <!-- <button class="btn btn-sm btn-outline-dark" id="contact"> -->
               <a href="#about" class="nav-link active" aria-current="page"
                 >About</a
               >
             </li>
-
             <!-- Service -->
             <li class="nav-item col-6 col-md-auto">
-              <!-- <button class="btn btn-sm btn-outline-dark" id="contact"> -->
               <a href="#service" class="nav-link active" aria-current="page"
                 >Service</a
               >
             </li>
             <!-- Contact -->
             <li class="nav-item col-6 col-md-auto">
-              <!-- <button class="btn btn-sm btn-outline-dark" id="contact"> -->
               <a href="#contact" class="nav-link active" aria-current="page"
                 >Contact</a
               >
@@ -108,36 +85,31 @@
           </ul>
         </div>
       </nav>
-    </header>
-    <!-- Home -->
-    <section id="home">
       <div
-        class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-cennter"
-        id="hStyle"
-      >
-        <div class="col-md-5 p-lg-5 mx-auto my-5">
-          <h1 class="display-4 fw-normal">MERCADO'S Consultant Service</h1>
-          <p class="lead fw-normal">
-            Offering over 30 years of medical experience to you with Mobile
-            Service. For All of Your Educational Medical and Professional Needs
-          </p>
-        </div>
-      </div>
-    </section>
+      class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-cennter"
+      id="hStyle"
+    >
+        <video class="videoInsert card-img" playsinline autoplay loop muted>
+          <source src="./img/mcsMain.mp4" type="video/mp4" />
+          <source src="movie.ogg" type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
+    </div>
+    </header>
     <!-- About -->
     <section id="about">
-      <div class="about-section" id="_aMe">
-        <h1>About Me</h1>
-      </div>
-      <div class="row" id="_aMe">
-        <div class="card" style="align-items: center">
+      <div class="container text-center">
+        <h1>Who Are We</h1>
+    
+      <div class="row" >
+        <div class="card" style="align-items: center" id="_aMe">
           <!-- Pedro's headshot -->
-          <div class="card-image-top">
-          <img src="/img/headshot.jpg"  class="img-fluid"
+          <div class="card-image-top text-cennter">
+          <img src="/img/headshot.jpg"  class="rounded"
           alt="" style="width: 50%" />
-          <h2 class="card-title" style="font-size: bold;">Pedro Mercado</h2>
+          
           <div class="card-body">
-         
+            <h2 class="card-title" style="font-size: bold;">Pedro Mercado</h2>
           <p class="card-title">Nurse Practitioner</p>
           <p class="card-text">
             Emphatic medical professionals with 30+ years in the healthcare
@@ -153,6 +125,7 @@
         </div>
       </div>
       </div>
+    </div>
     </section>
     <!-- Service -->
     <section id="service">
@@ -286,5 +259,6 @@
         </div>
 
     </footer>
+    <script src="./Scripts/script.js"></script>
   </body>
 </html>
