@@ -7,11 +7,11 @@ body {
   width: 100vw;
   font-size: 1.25rem;
   line-height: 1.6;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Anton", sans-serif;
   font-weight: bolder;
   scroll-behavior: smooth;
-  color: #2f3c7e;
-  background-color: #f1f1f1;
+  color: #29478d;
+  background-color: #fffcf6;
 }
 
 #nav-bar {
@@ -26,18 +26,18 @@ body {
 
 .navbar li a,
 .navbar .navbar-brand {
-  color: #2f3c7e !important;
+  color: #29478d !important;
 }
 
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
-  color: red !important;
-  background-color: #f1f1f1 !important;
+  color: #d2302c !important;
+  background-color: #fffcf6 !important;
 }
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
-  color: #f1f1f1 !important;
+  color: #fffcf6 !important;
 }
 
 .padR {
@@ -56,6 +56,39 @@ body {
 
 #_aMe {
   text-align: center;
-  background: #f1f1f1;
+  background: #fffcf6;
   border: none;
+}
+
+#head {
+  text-align: center;
+  color: #d2302c;
+  padding: 100px 25px;
+}
+
+#cardbck {
+  background-color: inherit;
+  color: #d2302c;
+}
+
+#contactinfo {
+  font-weight: lighter;
+}
+
+.btn {
+  color: #d2302c;
+  background-color: #d6d8dd;
+  font-weight: bold;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #20418e;
+  color: #fffcf6;
+}
+
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #d2302c;
 }
