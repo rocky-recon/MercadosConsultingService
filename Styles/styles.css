@@ -40,14 +40,6 @@ body {
   color: #fffcf6 !important;
 }
 
-.padR {
-  margin-right: 1rem;
-}
-
-.padL {
-  margin-left: 1rem;
-}
-
 #brand-container {
   line-height: 0.5;
   margin-left: 0.5rem;
@@ -91,4 +83,20 @@ footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
   color: #d2302c;
+}
+
+@media (max-width: 767px) {
+  body {
+    width: 100vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    width: 100vw;
+  }
+}
+@media (min-width: 1025px) {
+  body {
+    width: 100vw;
+  }
 }
